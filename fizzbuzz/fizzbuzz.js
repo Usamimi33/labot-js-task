@@ -1,4 +1,7 @@
-for (const num = 1; num <= 100; num++) {
+
+/*let limit  = 10000;*/ 
+
+for (let num = 1; num <= 100; num++) {
     if (num % 15 === 0) {
         console.log("FizzBuzz");
     }else if (num % 3 === 0) {
